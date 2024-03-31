@@ -6,7 +6,7 @@ let myPin = 1002;
 let pinAnswer = await inquirer.prompt([
   {
     name: "pin",
-    message: "Pleas enter your Pin number",
+    message: "Please enter your Pin number",
     type: "number",
   },
 ]);
