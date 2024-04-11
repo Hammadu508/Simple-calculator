@@ -1,9 +1,10 @@
 {
   "name": "hammad506-atm-machine",
-  "version": "1.0.1",
+  "version": "1.2.4",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
+  "bin": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

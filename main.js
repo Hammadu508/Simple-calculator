@@ -1,10 +1,11 @@
+#! /usr/bin/env node
 import inquirer from "inquirer";
 let myBalance = 10000;
 let myPin = 1002;
 let pinAnswer = await inquirer.prompt([
     {
         name: "pin",
-        message: "Pleas enter your Pin number",
+        message: "Please enter your Pin number",
         type: "number",
     },
 ]);
